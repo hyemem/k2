@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K2 모바일</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Roboto:wght@300;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="js/swiper-5.2.1/package/css/swiper.min.css">
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <script src="lib/jquery.easing.1.3.js"></script>
+    <script src="js/mobile_menu.js"></script>
+    <script src="js/product_slide.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- 삼선 아이콘 -->
+      <a href="#">
+        <img id="menu_icon" src="images/menu_icon.png" alt="메뉴보기" />
+      </a>
+
+      <!-- 로고 -->
+      <h1 id="logo">
+        <a href="#">
+          <img src=images/logo.png alt="로고">
+        </a>
+      </h1>
+
+      <!-- 모바일 메뉴 전체 -->
+      <div id="menu_wrap">
+        <!-- 닫기 버튼 -->
+        <div id="close_btn">
+          <a href="#">
+            <span id="t_stick"></span>
+            <span id="b_stick"></span>
+          </a>
+        </div>
+
+        <ul id="menu_list">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">마이페이지</a></li>
+        </ul>
+
+        <!-- 메뉴 시작 -->
+        <nav id="mobile_menu">
+          <ul>
+            <li>
+              <a href="#">BRAND</a>
+            </li>
+
+            <li>
+              <a href="#">MEN</a>
+            </li>
+
+            <li>
+              <a href="#">WOMEN</a>
+            </li>
+
+            <li>
+              <a href="#">SHOES</a>
+            </li>
+
+            <li>
+              <a href="#">BAG</a>
+            </li>
+
+            <li>
+              <a href="#">Q&A</a>
+            </li>
+
+            <li>
+              <a href="#">FACEBOOK</a>
+            </li>
+
+            <li>
+              <a href="#">INSTAGRAM</a>
+            </li>
+
+            <li>
+              <a href="#">BLOG</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 메인 배경 사진 -->
+    <section id="main">
+      <img src="images/main_bg.jpg" alt="등산사진1" />
+    </section>
+
+    <!-- about 영역 -->
+    <section id="about">
+      <div id="about_txtbox">
+        <h2 id="about_tit">ABOUT K2</h2>
+        <span id="about_subtit">Brand Motive</span>
+        <a href="#"><div id="more_btn">MORE</div></a>
+      </div>
+      <img src="images/about_bg.jpg" alt="등산사진2" />
+    </section>
+
+    <!-- campaign 영역 -->
+    <section id="campaign">
+      <ul>
+        <li id="campaign_01">
+          <a href="#"
+            ><img src="images/campaign_01.jpg" alt="K2캠페인 스쿨핑사진"
+          /></a>
+          <div class="campaign_txtbox">
+            <span class="campagin_tit_deco"></span>
+            <a href="#"
+              ><h2 class="campaign_tit">K2 CAMPAIGN, <br />SCHOOLPING</h2></a
+            >
+            <p>
+              청소년, 가족을 대상으로 건강한 소통 증진을 위한<br />
+              캠핑 프로그램
+            </p>
+          </div>
+        </li>
+
+        <li id="campaign_02">
+          <a href="#"
+            ><img src="images/campaign_02.jpg" alt="K2캠페인 클린백사진"
+          /></a>
+          <div class="campaign_txtbox">
+            <span class="campagin_tit_deco"></span>
+            <a href="#"
+              ><h2 class="campaign_tit">K2 CAMPAIGN, <br />CLEANBACK</h2></a
+            >
+            <p>
+              자연을 사랑하고, 보호하는 법을 교육하고<br />실천하도록 독려하는
+              프로그램
+            </p>
+          </div>
+        </li>
+
+        <li id="campaign_03">
+          <a href="#">
+            <img src="images/campaign_03.jpg" alt="K2캠페인 어스키퍼사진" />
+          </a>
+          <div class="campaign_txtbox">
+            <span class="campagin_tit_deco"></span>
+            <a href="#"
+              ><h2 class="campaign_tit">K2 CAMPAIGN, <br />EARTH KEEPER</h2></a
+            >
+            <p>
+              지구환경에 미치는 악영향을 줄이는 약속을 <br />이해하는 시민들과
+              자연을 보전하는 프로그램
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- new arrival 영역 -->
+    <section id="new_arrival">
+      <h2 id="new_arrival_tit">NEW ARRIVAL</h2>
+
+      <!-- 메인 사진 -->
+      <img src="images/product_main.jpg" alt="조깅사진" />
+
+      <!-- 제품 슬라이드 -->
+      <div id="product_wrap">
+        <ul id="product">
+          <li>
+            <img
+              src="images/product_01.gif"
+              alt="플라이 하이크 코어 BLACK 사진"
+            />
+            <p class="product_tit">플라이 하이크 코어<br />BLACK</p>
+            <p class="product_price">259,000원</p>
+          </li>
+
+          <li>
+            <img
+              src="images/product_02.gif"
+              alt="플라이 하이크 코어 NAVY 사진"
+            />
+            <p class="product_tit">플라이 하이크 코어<br />BLACK</p>
+            <p class="product_price">259,000원</p>
+          </li>
+
+          <li>
+            <img src="images/product_03.gif" alt="쿨런트 NAVY 사진" />
+            <p class="product_tit">쿨런트<br />NAVY</p>
+            <p class="product_price">159,000원</p>
+          </li>
+
+          <li>
+            <img
+              src="images/product_04.gif"
+              alt="플라이 하이크 코어 NAVY 사진"
+            />
+            <p class="product_tit">플랙스 001<br />WHITE</p>
+            <p class="product_price">179,000원</p>
+          </li>
+
+          <li>
+            <img
+              src="images/product_05.gif"
+              alt="플라이 하이크 코어 BLACK 사진"
+            />
+            <p class="product_tit">OSSAK 폴로 반팔<br />WHITE</p>
+            <p class="product_price">89,000원</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- footer 영역 -->
+    <footer>
+      <img src="images/footer_logo.png" alt="K2로고" />
+      <ul>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+      <p>
+        서울특별시 강남구 자곡로 174-14, 901호(자곡동) 케이투코리아(주) 대표이사
+        정영훈<br />
+        COPYRIGHT 2016 K2 korea, ALL RIGHTS RESERVED.
+      </p>
+      <p id="footer_txt">본 사이트는 개인 포트폴리오 용도로 제작되었습니다.</p>
+    </footer>
+  </body>
+</html>
