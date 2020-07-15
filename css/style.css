@@ -3,6 +3,10 @@ html{
     font-size: 10px;
 }
 
+body{
+    background: #000;
+}
+
 header,body{
     width: 100%;
     font-family: 'Noto Sans KR', sans-serif; 
